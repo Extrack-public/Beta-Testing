@@ -31,7 +31,7 @@ body:
     id: unexpected
     attributes:
       label: 😮 Unexpected behavior
-      description: Tell us what you did when you encountered the bug.
+      description: Tell us what actually happened when you encountered the bug.
       placeholder: Enter the unexpected behavior here.
     validations:
       required: true
