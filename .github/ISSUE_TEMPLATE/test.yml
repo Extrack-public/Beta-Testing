@@ -48,6 +48,6 @@ body:
     attributes:
       label: 💻 Computer Information
       description: Tell us your computer specifications. This is not needed if you think that it's an application error.
-      placeholder: Enter your computer info here, stuff like\: your operating system, GPU Model, CPU Model, etc.
+      placeholder: "Enter your computer info here, stuff like: your operating system, GPU Model, CPU Model, etc."
     validations:
       required: false
