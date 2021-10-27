@@ -37,7 +37,6 @@ body:
       required: true
   - type: markdown
     id: screenshots
-    value: "**Screenshots**"
     attributes:
       value: |
         > Attach screenshots of the bug, it helps a lot!
