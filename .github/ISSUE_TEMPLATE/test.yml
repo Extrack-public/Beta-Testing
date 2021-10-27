@@ -6,7 +6,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: A description of the bug
+      label: 📄 A description of the bug
       description: Give us a rough description of the bug you encountered.
       placeholder: Enter the description here.
     validations:
@@ -14,7 +14,7 @@ body:
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to reproduce
+      label: 📘 Steps to reproduce
       description: Tell us what you did when you encountered the bug.
       placeholder: Enter the description here.
     validations:
@@ -22,7 +22,7 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
+      label: 🙂 Expected behavior
       description: Tell us what was supposed to happen when you encountered  the bug.
       placeholder: Enter the description here.
     validations:
@@ -30,20 +30,23 @@ body:
   - type: textarea
     id: unexpected
     attributes:
-      label: Unexpected behavior
+      label: 😮 Unexpected behavior
       description: Tell us what you did when you encountered the bug.
       placeholder: Enter the description here.
     validations:
       required: true
-  - type: markdown
-    id: screenshots
-    attributes:
-      value: |
-        > Attach screenshots of the bug, it helps a lot!
   - type: textarea
     id: pcinfo
     attributes:
-      label: Computer Information
+      label: 📸 Screenshots
+      description: Attach screenshots of the bug, it helps a lot!
+      placeholder: Drag & Drop pictures here.
+    validations:
+      required: false
+  - type: textarea
+    id: pcinfo
+    attributes:
+      label: 💻 Computer Information
       description: Tell us your computer specifications. This is not needed if you think that it's an application error.
       placeholder: Enter the description here.
     validations:
