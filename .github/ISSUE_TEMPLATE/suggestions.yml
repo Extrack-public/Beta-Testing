@@ -1,7 +1,7 @@
-name: Bug Report
-description: Create a bug report to help us identify & solve issues.
-title: "Bug Report: "
-labels: ["bug", "triage"]
+name: Suggestion
+description: Submit an idea that may get added to Extrack.
+title: "Suggestion: "
+labels: ["idea", "suggestion"]
 body:
   - type: textarea
     id: description
