@@ -11,7 +11,7 @@ body:
       placeholder: Enter the suggestion here.
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: reproduction
     attributes:
       label: 🚦 How urgent would this suggestion be?
