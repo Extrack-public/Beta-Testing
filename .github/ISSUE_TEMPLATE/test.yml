@@ -40,15 +40,12 @@ body:
     value: "**Screenshots**"
     attributes:
       value: |
-        > Attach screenshots of the bug, it helps a lot!- type: markdown
-    id: screenshots
-    value: "**Computer Information**"
-    attributes:
-      value: |
-        > Tell us your computer specifications. This is not needed if you think that it's an application error.
+        > Attach screenshots of the bug, it helps a lot!
   - type: textarea
-    id: description
+    id: pcinfo
     attributes:
+      label: Computer Information
+      description: Tell us your computer specifications. This is not needed if you think that it's an application error.
       placeholder: Enter the description here.
     validations:
       required: false
